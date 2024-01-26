@@ -1,0 +1,1 @@
+# cifr-manager-service Changelog

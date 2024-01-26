@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "cifr-manager-service"
+  description: "microservice containing the core business logic for the cifr process in funding"
+  annotations:
+    github.com/project-slug: conservice/funding-cifr-manager-service
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: cifr-manager-service-development
+    sonarqube.org/project-key: funding-cifr-manager-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "group:default/funding"
